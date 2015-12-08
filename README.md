@@ -66,7 +66,7 @@ Sunday | wednesday
 * For a useful look at the different types of data scientists, read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) (32 pages).
 * For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
 * Quora has a [data science topic FAQ](https://www.quora.com/Data-Science) with lots of interesting Q&A.
-* Keep up with local data-related events through the Data Community DC [event calendar](http://www.datacommunitydc.org/calendar) or [weekly newsletter](http://www.datacommunitydc.org/newsletter).
+* Keep up with local data-related events through [http://www.meetup.com/Big-Data-Israel/] or [https://www.facebook.com/groups/1611357879082225/] or something similar. 
 * **["A Few Useful Things to Know about Machine Learning"](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)**
 * **Alex Pinto's talk, "Secure Because Math: A Deep-Dive on ML-Based Monitoring" [video](https://www.youtube.com/watch?v=TYVCVzEJhhQ), [paper] (https://www.blackhat.com/docs/us-14/materials/us-14-Pinto-Secure-Because-Math-A-Deep-Dive-On-Machine-Learning-Based-Monitoring-WP.pdf)** 
 * Let's learn a bit more about Machine Learning, and a couple of common ideas and concerns. Read ["A Visual Introduction to Machine Learning, Part 1"](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) by [Stephanie Yee](https://twitter.com/stephaniejyee) and [Tony Chu](https://twitter.com/tonyhschu/).

@@ -1,12 +1,10 @@
-## DAT8 Course Repository
+## SPVSS Data Science Course Repository
 
-Course materials for [General Assembly's Data Science course](https://generalassemb.ly/education/data-science/washington-dc/) in Washington, DC (8/18/15 - 10/29/15).
+Very strongly based on [General Assembly's Data Science course](https://generalassemb.ly/education/data-science/washington-dc/) in Washington, DC (8/18/15 - 10/29/15), forked from https://github.com/justmarkham/DAT8/ by **Kevin Markham**.
 
-**Instructor:** Kevin Markham ([blog](http://www.dataschool.io/), [email newsletter](http://www.dataschool.io/subscribe/), [YouTube channel](https://www.youtube.com/user/dataschool))
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/harelc/DAT8)
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/justmarkham/DAT8)
-
-Tuesday | Thursday
+Sunday | wednesday
 --- | ---
 8/18: [Introduction to Data Science](#class-1-introduction-to-data-science) | 8/20: [Command Line, Version Control](#class-2-command-line-and-version-control)
 8/25: [Data Reading and Cleaning](#class-3-data-reading-and-cleaning) | 8/27: [Exploratory Data Analysis](#class-4-exploratory-data-analysis)
@@ -20,19 +18,15 @@ Tuesday | Thursday
 10/20: [Advanced scikit-learn, Clustering](#class-19-advanced-scikit-learn-and-clustering) | 10/22: [Regularization, Regex](#class-20-regularization-and-regular-expressions)
 10/27: [Course Review](#class-21-course-review-and-final-project-presentation) | 10/29: [Final Project Presentation](#class-22-final-project-presentation)
 
-<!--
 ### Before the Course Begins
 * Install [Git](http://git-scm.com/downloads).
 * Create an account on the [GitHub](https://github.com/) website.
     * It is not necessary to download "GitHub for Windows" or "GitHub for Mac"
 * Install the [Anaconda distribution](http://continuum.io/downloads) of Python 2.7x.
     * If you choose not to use Anaconda, here is a list of the [Python packages](other/python_packages.md) you will need to install during the course.
-* We would like to check the setup of your laptop before the course begins:
-    * You can have your laptop checked before the intermediate Python workshop on Tuesday 8/11 (5:30pm-6:30pm), at the [15th & K Starbucks](http://www.yelp.com/biz/starbucks-washington-15) on Saturday 8/15 (1pm-3pm), or before class on Tuesday 8/18 (5:30pm-6:30pm).
-    * Alternatively, you can walk through the [setup checklist](other/setup_checklist.md) yourself.
+* Walk through the [setup checklist](other/setup_checklist.md) yourself.
 * Once you receive an email invitation from Slack, join our "DAT8 team" and add your photo.
 * Practice Python using the resources below.
--->
 
 ### Python Resources
 * [Codecademy's Python course](http://www.codecademy.com/en/tracks/python): Good beginner material, including tons of in-browser exercises.
@@ -44,12 +38,6 @@ Tuesday | Thursday
 * [Python 2.7 Quick Reference](https://github.com/justmarkham/python-reference/blob/master/reference.py): My beginner-oriented guide that demonstrates Python concepts through short, well-commented examples.
 * [Beginner](code/00_python_beginner_workshop.py) and [intermediate](code/00_python_intermediate_workshop.py) workshop code: Useful for review and reference.
 * [Python Tutor](http://pythontutor.com/): Allows you to visualize the execution of Python code.
-
-<!--
-### Submission Forms
-* [Feedback form](http://bit.ly/dat8feedback)
-* [Homework and project submissions](http://bit.ly/dat8homework)
--->
 
 ### [Course project](project/README.md)
 
@@ -68,36 +56,49 @@ Tuesday | Thursday
 * Introduction to data science ([slides](slides/01_intro_to_data_science.pdf))
 * Discuss the course project: [requirements](project/README.md) and [example projects](https://github.com/justmarkham/DAT-project-examples)
 * Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
-* Welcome from General Assembly staff
+* https://github.com/harelc/dive-into-machine-learning 
+
+<!--
+- **Data alone is not enough.** This is where science meets art in machine-learning. Quoting Domingos: "... the need for knowledge in learning should not be surprising. Machine learning is not magic; it can’t get something from nothing. What it does is get more from less. Programming, like all engineering, is a lot of work: we have to build everything from scratch. Learning is more like farming, which lets nature do most of the work. Farmers combine seeds with nutrients to grow crops. Learners combine knowledge with data to grow programs."
+- **More data beats a cleverer algorithm.** Listen up, programmers. We like cool tools. Resist the temptation to reinvent the wheel, or to over-engineer solutions. Your starting point is to [Do the Simplest Thing that Could _Possibly_ Work](http://www.artima.com/intv/simplest3.html). Quoting Domingos: "Suppose you’ve constructed the best set of features you can, but the classifiers you’re getting are still not accurate enough. What can you do now? There are two main choices: design a better learning algorithm, or gather more data. [...] As a rule of thumb, a dumb algorithm with lots and lots of data beats a clever one with modest amounts of it. (After all, machine learning is all about letting data do the heavy lifting.)"
+
+So  **knowledge** and **data** are critical. Focus your efforts on those, before fussing about algorithms. In practice, this means that unless you _have_ to increase complexity, you should continue to [Do Simple Things]; don't rush to neural networks just because they're cool. To improve your model, get more data  and use your knowledge of the problem to manipulate the data. You should spend most of your time on these steps. Only optimize your choice of algorithms after you've got enough data, and you've processed it well.
+
+![What has the most impact in Machine Learning](http://i1381.photobucket.com/albums/ah240/hangtwenty/Screen%20Shot%202015-03-05%20at%2010.08.10%20PM_zpsqnljkqt5.png)
+
+(Chart inspired by a slide from [Alex Pinto's talk, "Secure Because Math: A Deep-Dive on ML-Based Monitoring"](https://www.youtube.com/watch?v=TYVCVzEJhhQ).)
+
+[Do Simple Things]: http://c2.com/cgi/wiki?DoSimpleThings 
+-->
 
 **Homework:**
-* Work through GA's friendly [command line tutorial](http://generalassembly.github.io/prework/command-line/#/) using Terminal (Linux/Mac) or Git Bash (Windows).
-* Read through this [command line reference](code/02_command_line.md), and complete the pre-class exercise at the bottom. (There's nothing you need to submit once you're done.)
 * Watch videos 1 through 8 (21 minutes) of [Introduction to Git and GitHub](https://www.youtube.com/playlist?list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD), or read sections 1.1 through 2.2 of [Pro Git](http://git-scm.com/book/en/v2).
-* If your laptop has any setup issues, please work with us to resolve them by Thursday. If your laptop has not yet been checked, you should come early on Thursday, or just walk through the [setup checklist](other/setup_checklist.md) yourself (and let us know you have done so).
+* If your laptop has any setup issues, please work to resolve them by the next session.
 
 **Resources:**
 * For a useful look at the different types of data scientists, read [Analyzing the Analyzers](http://cdn.oreillystatic.com/oreilly/radarreport/0636920029014/Analyzing_the_Analyzers.pdf) (32 pages).
 * For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
 * Quora has a [data science topic FAQ](https://www.quora.com/Data-Science) with lots of interesting Q&A.
 * Keep up with local data-related events through the Data Community DC [event calendar](http://www.datacommunitydc.org/calendar) or [weekly newsletter](http://www.datacommunitydc.org/newsletter).
+* **["A Few Useful Things to Know about Machine Learning"](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)**
+* Let's learn a bit more about Machine Learning, and a couple of common ideas and concerns. Read ["A Visual Introduction to Machine Learning, Part 1"](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) by [Stephanie Yee](https://twitter.com/stephaniejyee) and [Tony Chu](https://twitter.com/tonyhschu/).
 
 -----
 
 ### Class 2: Command Line and Version Control
-* Slack tour
+* Cisco Spark tour. Download [Spark for Desktop] (http://www.webex.com/ciscospark/downloads.html) or [Spark for Android] (https://play.google.com/store/apps/details?id=com.cisco.wx2.android&hl=en) 
 * Review the command line pre-class exercise ([code](code/02_command_line.md))
 * Git and GitHub ([slides](slides/02_git_github.pdf))
 * Intermediate command line
 
 **Homework:**
 * Complete the [command line homework assignment](homework/02_command_line_chipotle.md) with the Chipotle data.
-* Review the code from the [beginner](code/00_python_beginner_workshop.py) and [intermediate](code/00_python_intermediate_workshop.py) Python workshops. If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some time this weekend practicing Python:
+* Review the code from the [beginner](code/00_python_beginner_workshop.py) and [intermediate](code/00_python_intermediate_workshop.py) Python workshops. If you don't feel comfortable with any of the content (excluding the "requests" and "APIs" sections), you should spend some practicing Python:
     * [Introduction to Python](http://introtopython.org/) does a great job explaining Python essentials and includes tons of example code.
     * If you like learning from a book, [Python for Informatics](http://www.pythonlearn.com/html-270/) has useful chapters on strings, lists, and dictionaries.
     * If you prefer interactive exercises, try these lessons from [Codecademy](http://www.codecademy.com/en/tracks/python): "Python Lists and Dictionaries" and "A Day at the Supermarket".
     * If you have more time, try missions 2 and 3 from [DataQuest's Learning Python](https://www.dataquest.io/course/learning-python) course.
-    * If you've already mastered these topics and want more of a challenge, try solving [Python Challenge](http://www.pythonchallenge.com/) number 1 (decoding a message) and send me your code in Slack.
+    * If you've already mastered these topics and want more of a challenge, try solving [Python Challenge](http://www.pythonchallenge.com/) number 1 (decoding a message) and send me your code in Spark.
 * To give you a framework for thinking about your project, watch [What is machine learning, and how does it work?](https://www.youtube.com/watch?v=elojMnjn4kk) (10 minutes). (This is the [IPython notebook](https://github.com/justmarkham/scikit-learn-videos/blob/master/01_machine_learning_intro.ipynb) shown in the video.) Alternatively, read [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/), which focuses on a specific machine learning model called decision trees.
 * **Optional:** Browse through some more [example student projects](https://github.com/justmarkham/DAT-project-examples), which may help to inspire your own project!
 
@@ -119,7 +120,6 @@ Tuesday | Thursday
 * Git and GitHub assorted tips ([slides](slides/02_git_github.pdf))
 * Review command line homework ([solution](homework/02_command_line_chipotle.md))
 * Python:
-    * Spyder interface
     * Looping exercise
     * Lesson on file reading with airline safety data ([code](code/03_file_reading.py), [data](data/airlines.csv), [article](http://fivethirtyeight.com/features/should-travelers-avoid-flying-airlines-that-have-had-crashes-in-the-past/))
     * Data cleaning exercise

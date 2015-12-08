@@ -6,17 +6,17 @@ Very strongly based on [General Assembly's Data Science course](https://generala
 
 Sunday | wednesday
 --- | ---
-8/18: [Introduction to Data Science](#class-1-introduction-to-data-science) | 8/20: [Command Line, Version Control](#class-2-command-line-and-version-control)
-8/25: [Data Reading and Cleaning](#class-3-data-reading-and-cleaning) | 8/27: [Exploratory Data Analysis](#class-4-exploratory-data-analysis)
-9/1: [Visualization](#class-5-visualization) | 9/3: [Machine Learning](#class-6-machine-learning)
-9/8: [Getting Data](#class-7-getting-data) | 9/10: [K-Nearest Neighbors](#class-8-k-nearest-neighbors)
-9/15: [Basic Model Evaluation](#class-9-basic-model-evaluation) | 9/17: [Linear Regression](#class-10-linear-regression)
-9/22: [First Project Presentation](#class-11-first-project-presentation) | 9/24: [Logistic Regression](#class-12-logistic-regression)
-9/29: [Advanced Model Evaluation](#class-13-advanced-model-evaluation) | 10/1: [Naive Bayes and Text Data](#class-14-naive-bayes-and-text-data)
-10/6: [Natural Language Processing](#class-15-natural-language-processing) | 10/8: [Kaggle Competition](#class-16-kaggle-competition)
-10/13: [Decision Trees](#class-17-decision-trees) | 10/15: [Ensembling](#class-18-ensembling)
-10/20: [Advanced scikit-learn, Clustering](#class-19-advanced-scikit-learn-and-clustering) | 10/22: [Regularization, Regex](#class-20-regularization-and-regular-expressions)
-10/27: [Course Review](#class-21-course-review-and-final-project-presentation) | 10/29: [Final Project Presentation](#class-22-final-project-presentation)
+??/??: [Introduction to Data Science](#class-1-introduction-to-data-science) | ??/??: [Command Line, Version Control](#class-2-command-line-and-version-control)
+??/??: [Data Reading and Cleaning](#class-3-data-reading-and-cleaning) | ??/??: [Exploratory Data Analysis](#class-4-exploratory-data-analysis)
+??/??: [Visualization](#class-5-visualization) | ??/??: [Machine Learning](#class-6-machine-learning)
+??/??: [Getting Data](#class-7-getting-data) | ??/??: [K-Nearest Neighbors](#class-8-k-nearest-neighbors)
+??/??: [Basic Model Evaluation](#class-9-basic-model-evaluation) | ??/??: [Linear Regression](#class-10-linear-regression)
+??/??: [First Project Presentation](#class-11-first-project-presentation) | ??/??: [Logistic Regression](#class-12-logistic-regression)
+??/??: [Advanced Model Evaluation](#class-13-advanced-model-evaluation) | ??/??: [Naive Bayes and Text Data](#class-14-naive-bayes-and-text-data)
+??/??: [Natural Language Processing](#class-15-natural-language-processing) | ??/??: [Kaggle Competition](#class-16-kaggle-competition)
+??/??: [Decision Trees](#class-17-decision-trees) | ??/??: [Ensembling](#class-18-ensembling)
+??/??: [Advanced scikit-learn, Clustering](#class-19-advanced-scikit-learn-and-clustering) | ??/??: [Regularization, Regex](#class-20-regularization-and-regular-expressions)
+??/??: [Course Review](#class-21-course-review-and-final-project-presentation) | ??/??: [Final Project Presentation](#class-22-final-project-presentation)
 
 ### Before the Course Begins
 * Install [Git](http://git-scm.com/downloads).
@@ -58,7 +58,9 @@ Sunday | wednesday
 * Types of data ([slides](slides/01_types_of_data.pdf)) and [public data sources](project/public_data.md)
 * https://github.com/harelc/dive-into-machine-learning 
 
-<!--
+* 
+
+<!-- 
 - **Data alone is not enough.** This is where science meets art in machine-learning. Quoting Domingos: "... the need for knowledge in learning should not be surprising. Machine learning is not magic; it can’t get something from nothing. What it does is get more from less. Programming, like all engineering, is a lot of work: we have to build everything from scratch. Learning is more like farming, which lets nature do most of the work. Farmers combine seeds with nutrients to grow crops. Learners combine knowledge with data to grow programs."
 - **More data beats a cleverer algorithm.** Listen up, programmers. We like cool tools. Resist the temptation to reinvent the wheel, or to over-engineer solutions. Your starting point is to [Do the Simplest Thing that Could _Possibly_ Work](http://www.artima.com/intv/simplest3.html). Quoting Domingos: "Suppose you’ve constructed the best set of features you can, but the classifiers you’re getting are still not accurate enough. What can you do now? There are two main choices: design a better learning algorithm, or gather more data. [...] As a rule of thumb, a dumb algorithm with lots and lots of data beats a clever one with modest amounts of it. (After all, machine learning is all about letting data do the heavy lifting.)"
 
@@ -81,6 +83,7 @@ So  **knowledge** and **data** are critical. Focus your efforts on those, before
 * Quora has a [data science topic FAQ](https://www.quora.com/Data-Science) with lots of interesting Q&A.
 * Keep up with local data-related events through the Data Community DC [event calendar](http://www.datacommunitydc.org/calendar) or [weekly newsletter](http://www.datacommunitydc.org/newsletter).
 * **["A Few Useful Things to Know about Machine Learning"](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)**
+* **Alex Pinto's talk, "Secure Because Math: A Deep-Dive on ML-Based Monitoring" [video](https://www.youtube.com/watch?v=TYVCVzEJhhQ), [paper] (https://www.blackhat.com/docs/us-14/materials/us-14-Pinto-Secure-Because-Math-A-Deep-Dive-On-Machine-Learning-Based-Monitoring-WP.pdf)** 
 * Let's learn a bit more about Machine Learning, and a couple of common ideas and concerns. Read ["A Visual Introduction to Machine Learning, Part 1"](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) by [Stephanie Yee](https://twitter.com/stephaniejyee) and [Tony Chu](https://twitter.com/tonyhschu/).
 
 -----

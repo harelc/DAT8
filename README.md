@@ -67,9 +67,6 @@ Sunday | wednesday
 * For some thoughts on what it's like to be a data scientist, read these short posts from [Win-Vector](http://www.win-vector.com/blog/2012/09/on-being-a-data-scientist/) and [Datascope Analytics](http://datascopeanalytics.com/what-we-think/2014/07/31/six-qualities-of-a-great-data-scientist).
 * Quora has a [data science topic FAQ](https://www.quora.com/Data-Science) with lots of interesting Q&A.
 * Keep up with local data-related events through [http://www.meetup.com/Big-Data-Israel/] or [https://www.facebook.com/groups/1611357879082225/] or something similar. 
-* **["A Few Useful Things to Know about Machine Learning"](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)**
-* **Alex Pinto's talk, "Secure Because Math: A Deep-Dive on ML-Based Monitoring" [video](https://www.youtube.com/watch?v=TYVCVzEJhhQ), [paper] (https://www.blackhat.com/docs/us-14/materials/us-14-Pinto-Secure-Because-Math-A-Deep-Dive-On-Machine-Learning-Based-Monitoring-WP.pdf)** 
-* Let's learn a bit more about Machine Learning, and a couple of common ideas and concerns. Read ["A Visual Introduction to Machine Learning, Part 1"](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) by [Stephanie Yee](https://twitter.com/stephaniejyee) and [Tony Chu](https://twitter.com/tonyhschu/).
 
 -----
 
@@ -115,6 +112,7 @@ Sunday | wednesday
 
 **Homework:**
 * Complete the [Python homework assignment](code/03_python_homework_chipotle.py) with the Chipotle data, add a commented Python script to your GitHub repo, and submit a link using the homework submission form. You have until Tuesday (9/1) to complete this assignment. (**Note:** Pandas, which is covered in class 4, should not be used for this assignment.)
+* Read this  important and disillusioned text about machine learning. ["A Few Useful Things to Know about Machine Learning"](http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
 
 **Resources:**
 * [Want to understand Python's comprehensions? Think in Excel or SQL](http://blog.lerner.co.il/want-to-understand-pythons-comprehensions-think-like-an-accountant/) may be helpful if you are still confused by list comprehensions.
@@ -132,12 +130,13 @@ Sunday | wednesday
 * Project question exercise
 
 **Homework:**
-* The deadline for discussing your project ideas with an instructor is Tuesday (9/1), and your project question write-up is due Thursday (9/3).
+* The deadline for discussing your project ideas is next week!
+* Listen or read Alex Pinto's talk, "Secure Because Math: A Deep-Dive on ML-Based Monitoring" for a realistic take on the promises and limitations of applying ML to security problems. [video](https://www.youtube.com/watch?v=TYVCVzEJhhQ), [paper](https://www.blackhat.com/docs/us-14/materials/us-14-Pinto-Secure-Because-Math-A-Deep-Dive-On-Machine-Learning-Based-Monitoring-WP.pdf)
 * Read [How Software in Half of NYC Cabs Generates $5.2 Million a Year in Extra Tips](http://iquantny.tumblr.com/post/107245431809/how-software-in-half-of-nyc-cabs-generates-5-2) for an excellent example of exploratory data analysis.
 * Read [Anscombe's Quartet, and Why Summary Statistics Don't Tell the Whole Story](http://data.heapanalytics.com/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story/) for a classic example of why visualization is useful.
 
 **Resources:**
-* Browsing or searching the Pandas [API Reference](http://pandas.pydata.org/pandas-docs/stable/api.html) is an excellent way to locate a function even if you don't know its exact name.
+* Browsing or searching the [Pandas Documentation](http://pandas.pydata.org/pandas-docs/stable/) is an excellent way to learn Pandas by example. The very detailed documentation contains examples for just about anything you can dream up. 
 * [What I do when I get a new data set as told through tweets](http://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/) is a fun (yet enlightening) look at the process of exploratory data analysis.
 
 -----

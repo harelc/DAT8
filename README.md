@@ -622,3 +622,16 @@ Sunday | wednesday
 * [The Global Network of Discovery](http://www.gnod.com/) provides some neat recommenders for music, authors, and movies.
 * [The People Inside Your Machine](http://www.npr.org/blogs/money/2015/01/30/382657657/episode-600-the-people-inside-your-machine) (23 minutes) is a Planet Money podcast episode about how Amazon Mechanical Turks can assist with recommendation engines (and machine learning in general).
 * Coursera has a [course](https://www.coursera.org/learn/recommender-systems) on recommendation systems, if you want to go even deeper into the material.
+
+### SafariBooksOnline books
+Safari Books Online books
+* http://cisco.safaribooksonline.com/book/software-engineering-and-development/9781783988365 - scikit-learn focus, very good
+* http://cisco.safaribooksonline.com/book/programming/python/9781783555130 - new one, a little advanced, but very practical
+* http://cisco.safaribooksonline.com/book/programming/python/9781783981960 - pandas focus
+* http://cisco.safaribooksonline.com/book/programming/python/9781449323592 - data analysis (pandas and more) focus
+* http://cisco.safaribooksonline.com/book/programming/python/9781784392772 - 2nd edition of one of the more famous books, lots of examples
+* http://cisco.safaribooksonline.com/book/programming/python/9781785280429 - broad array of data science topics
+* http://cisco.safaribooksonline.com/book/programming/python/9781783284818 - IPython, visualizations
+* http://cisco.safaribooksonline.com/book/information-technology-and-software-development/9781783989485 - somewhat more advanced scikit-learn ‘cookbook’
+* http://cisco.safaribooksonline.com/book/programming/python/9781782161400 - yet another one
+* http://cisco.safaribooksonline.com/book/programming/machine-learning/9781449330514 - ditto
